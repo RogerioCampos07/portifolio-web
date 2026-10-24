@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conheça Rogerio Campos e seus projetos em Python: aplicações web, automação e inteligência artificial.">
+    <title>Rogerio Campos | Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body id="inicio">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header container">
+      <a class="brand" href="#inicio" aria-label="Rogerio Campos — início">
+        <span class="brand-mark" aria-hidden="true">RC</span>
+        <span>Rogerio Campos</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container" id="conteudo" tabindex="-1">
+      <div class="hero">
+        <div class="intro">
+          <p class="eyebrow">Portfólio pessoal</p>
+          <h1>Rogerio Campos<span class="title-dot" aria-hidden="true">.</span></h1>
+          <p class="intro-text">Apaixonado por tecnologia. Projetos em Python que exploram aplicações web, automação e inteligência artificial.</p>
+          <div class="hero-links">
+            <a class="button-link" href="#projetos">Conheça os projetos</a>
+            <a class="text-link" href="https://github.com/RogerioCampos07">Meu GitHub</a>
+          </div>
+        </div>
+        <p class="hero-note">Python, ideias<br>e possibilidades.</p>
+      </div>
+
+      <section class="content-section about" id="sobre" aria-labelledby="sobre-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Sobre</p>
+          <h2 id="sobre-titulo">Tecnologia na prática.</h2>
+        </div>
+        <div class="section-body">
+          <p>Sou Rogerio Campos, apaixonado por tecnologia. Neste espaço, compartilho projetos em Python que exploram aplicações web, automação e inteligência artificial.</p>
+          <p>Nos meus repositórios, você encontra desde gestão de estoque com Django até agentes com recuperação de informações em documentos. Cada projeto é uma oportunidade de explorar ferramentas e construir soluções.</p>
+          <h3 class="technologies-heading">Tecnologias presentes nos projetos</h3>
+          <ul class="tags" aria-label="Tecnologias">
+            <li>Python</li><li>Django</li><li>FastAPI</li><li>LangChain</li>
+            <li>ChromaDB</li><li>Streamlit</li><li>Docker</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content-section" id="projetos" aria-labelledby="projetos-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Projetos</p>
+          <h2 id="projetos-titulo">Do código à solução.</h2>
+          <p class="section-description">Uma seleção dos meus repositórios públicos. Explore o código e a documentação de cada projeto.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" aria-labelledby="docpipe-titulo">
+            <p class="project-category">Documentos &amp; APIs</p>
+            <h3 id="docpipe-titulo">DocPipe Ingestion</h3>
+            <p>Microserviço para receber, validar e armazenar documentos, com API FastAPI e publicação de eventos via RabbitMQ. Não executa OCR ou extração de conteúdo.</p>
+            <ul class="tags" aria-label="Tecnologias do DocPipe Ingestion">
+              <li>Python</li><li>FastAPI</li><li>RabbitMQ</li>
+            </ul>
+            <a class="text-link project-link" href="https://github.com/RogerioCampos07/docpipe-ingestion">Ver DocPipe Ingestion</a>
+          </article>
+          <article class="project-card" aria-labelledby="rag-titulo">
+            <p class="project-category">Inteligência artificial</p>
+            <h3 id="rag-titulo">RAG Agent</h3>
+            <p>Agente de suporte técnico com recuperação de informações em documentos. Utiliza LangChain, ChromaDB e uma interface web construída com Streamlit.</p>
+            <ul class="tags" aria-label="Tecnologias do RAG Agent">
+              <li>LangChain</li><li>ChromaDB</li><li>Streamlit</li>
+            </ul>
+            <a class="text-link project-link" href="https://github.com/RogerioCampos07/rag_agent">Ver RAG Agent</a>
+          </article>
+          <article class="project-card" aria-labelledby="stock-titulo">
+            <p class="project-category">Aplicações web</p>
+            <h3 id="stock-titulo">Django Admin Stock</h3>
+            <p>Gestão de produtos, fornecedores e movimentações de estoque pela interface de administração do Django, com atualização de saldo a partir das movimentações.</p>
+            <ul class="tags" aria-label="Tecnologias do Django Admin Stock">
+              <li>Python</li><li>Django</li>
+            </ul>
+            <a class="text-link project-link" href="https://github.com/RogerioCampos07/DjangoAdminStock">Ver Django Admin Stock</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section contact" id="contato" aria-labelledby="contato-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">03 / Contato</p>
+          <h2 id="contato-titulo">Continue a conversa.</h2>
+          <p class="section-description">Conheça meu perfil no GitHub e acompanhe os projetos por lá.</p>
+        </div>
+        <a class="button-link" href="https://github.com/RogerioCampos07">Acessar meu perfil no GitHub</a>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>Rogerio Campos</p>
+      <a href="#inicio">Voltar ao início ↑</a>
+    </footer>
+  </body>
+</html>
